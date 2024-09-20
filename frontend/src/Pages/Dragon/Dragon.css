@@ -1,0 +1,36 @@
+.Dragon{
+    background-color: black;
+}
+
+.Dragonpage1{
+    background-image: url('/dragon_feature.jpg');
+    background-size: cover;
+    background-position: center;
+   background-color: black;
+    height: 100vh; 
+    width: 100%;
+}
+.page10{
+    background-image: url('/dragon_video.jpg');
+    background-size: cover;
+    background-position: center;
+   background-color: black;
+    height: 100vh; 
+    width: 100%;
+}
+.dragonengineimage{
+    background-image: url('/DragonTrunk_Render_Desktop.png');
+    background-size: cover;
+    background-position: center;
+   background-color: black;
+    height: 100vh; 
+    width: 100%;
+}
+.lastdragon{
+    background-image: url('/DRAGON_DM2_LC39A.jpg');
+    background-size: cover;
+    background-position: center;
+   background-color: black;
+    height: 100vh; 
+    width: 100%;  
+}

@@ -1,0 +1,96 @@
+.page1 {
+    background-image: url('/page1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    width: 100%;
+}
+
+
+.text{
+    padding-top: 55vh;
+    padding-left: 150px;
+    line-height: 38px;
+    text-align: left;
+}
+.text h2{
+    font-size: 20px;
+    color: white;
+}
+.text h1{
+    font-size: 48px;
+    line-height: 70px;
+    color: white;
+}
+.wrapper{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  button{
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin-left: 150px;
+    margin-top: 20px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  button span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  button:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 20px;
+    transition: all .35s;
+  }
+  
+  button:hover{
+    color: #000000;
+  }
+  
+  button:hover:after{
+    width: 100%;
+  }
+
+  @media (max-width:756px){
+    .text{
+        padding-top: 55vh;
+        padding-left: 30px;
+        line-height: 38px;
+        text-align: left;
+    }
+    button{
+        margin-left: 30px;
+    }
+    .text h2{
+      font-size: 15px;
+      color: white;
+  }
+  .text h1{
+      font-size: 30px;
+      line-height: 40px;
+      color: white;
+  }
+  }

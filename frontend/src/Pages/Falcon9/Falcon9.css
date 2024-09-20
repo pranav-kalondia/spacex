@@ -1,0 +1,274 @@
+.falcon9{
+    background-color: black;
+}
+.page1{
+    background-image: url('/f9_feature.jpg');
+    background-size: cover;
+    background-position: center;
+   background-color: black;
+    height: 100vh; 
+    width: 100%;
+}
+.headingfalcon{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top:250px;
+    font-size:9vw ;
+    text-transform: uppercase;
+    line-height: 85px;
+    
+}
+.subheadingfalcon{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size:1.5vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 100px;
+  
+    
+}
+
+.numberanimation{
+    padding-top: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding-bottom: 100px;
+    
+
+}
+.numberanimation h1{
+    font-size: 10vw;
+    font-weight: 100;
+}
+.numberanimation h2{
+    font-size: 1.5vw;
+    font-weight: 200;
+}
+.specs1{
+   text-align: center;
+}
+.rocketfalcon{
+    background-image: url('/rocket falcon 9.jpg');
+    background-size: cover;
+    background-position: center;
+   background-color: black;
+    height: 100vh; 
+    width: 100%; 
+    margin-top: 100px;
+}
+.rocketfalcon h3{
+    font-size: 1.12vw;
+    font-weight: 200;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    padding-right: 800px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.page8{
+    background-image: url('/f9_video.jpg');
+    background-size: cover;
+    background-position: center;
+   background-color: black;
+    height: 100vh; 
+    width: 100%;
+}
+.merlin-engine-container {
+    
+    color: #fff; /* White text */
+    padding-left: 20px;
+    padding-top: 220px;
+    max-width: 600px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header1 h2 {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .header1 h1 {
+    font-weight: 700;
+    font-size: 36px;
+    margin: 5px 0;
+  }
+
+  
+  .level {
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+  .description p {
+    font-weight: 300;
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  
+  .specs {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+  }
+  
+  .propellant, .thrust {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .propellant p, .thrust p {
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .propellant span, .thrust span {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .engineimage{
+    background-image: url('/Merlin.jpg');
+    background-size: cover;
+    background-position: center;
+   background-color: black;
+    height: 100vh; 
+    width: 100%;
+  }
+  .text5 h1{
+    display: flex;
+    justify-content:center;
+   
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .lastfalcon{
+    background-image: url('/lastsectionfalcon9.jpg');
+    background-size: cover;
+    background-position: center;
+   background-color: black;
+    height: 100vh; 
+    width: 100%;
+  }
+  @media (max-width:613px){
+.numberanimation{
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.specs1{
+
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.headingfalcon{
+font-size: 15vw;
+justify-content: center;
+}
+
+.subheadingfalcon{
+  font-size: 3vw;
+  line-height: 0;
+}
+
+.numberanimation h1{
+  font-size: 25vw;
+  font-weight: 100;
+}
+.numberanimation h2{
+  font-size: 6vw;
+  font-weight: 200;
+}
+
+.merlin-engine-container {
+    
+  color: #fff; /* White text */
+  padding-left: 20px;
+  padding-top: 100px;
+padding-right: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header1 h2 {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+}
+
+.header1 h1 {
+  font-weight: 700;
+  font-size: 36px;
+  margin: 5px 0;
+}
+.text5 h1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 300px;
+  font-size: 4vw;
+  color: #fff;
+}
+
+.level {
+  margin: 10px 0;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.description p {
+  font-weight: 300;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.specs {
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}
+
+.propellant, .thrust {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.propellant p, .thrust p {
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0;
+}
+
+.propellant span, .thrust span {
+  font-weight: 400;
+  font-size: 14px;
+}
+.text5 h1{
+  display: flex;
+  justify-content:center;
+ 
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+  font-size: 15px;
+  color: #fff;
+}
+
+
+
+
+
+  }

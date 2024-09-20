@@ -1,0 +1,44 @@
+.Starship{
+    background-color: black;
+}
+
+.Starshippage1{
+    background-image: url('/starship1.jpg');
+    background-size: cover;
+    background-position: center;
+   background-color: black;
+    height: 100vh; 
+    width: 100%;
+}
+.Starshippage8{
+    background-image: url('/STARSHIP_CAPABILITIES_MAIN_Desktop_Darkened_v3.jpg');
+    background-size: cover;
+    background-position: center;
+   background-color: black;
+    height: 100vh; 
+    width: 100%;
+}
+.starshipengineimage{
+    background-image: url('/WebsiteStarship_Render_Desktop.jpg');
+    background-size: cover;
+    background-position: center;
+   background-color: black;
+    height: 100vh; 
+    width: 100%;
+}
+.lastStarship{
+    background-image: url('/Starbase_Desktop.jpg');
+    background-size: cover;
+    background-position: center;
+   background-color: black;
+    height: 100vh; 
+    width: 100%;  
+}
+.bottomheading5 h1{
+   font-size: 14px;
+   line-height: 20px;
+
+}
+.bottomheading5{
+    width: 500px;
+}
