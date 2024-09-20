@@ -8,14 +8,15 @@
   </head>
   <body>
     <div id="root"></div>
-    
-    <!-- Importing Vite's main entry point -->
+
+    <!-- Main entry point for Vite (ES module) -->
     <script type="module" src="/src/main.jsx"></script>
 
-    <!-- Importing ScrollReveal -->
+    <!-- Importing ScrollReveal (as it's an external script, no module needed) -->
     <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
-    
-    <!-- Ensure data.js is correctly loaded if it is needed for ScrollReveal or other scripts -->
-    <script src="/src/data.js"></script>
+
+    <!-- Importing data.js as a module if it uses ES6 import/export -->
+    <script type="module" src="/src/data.js"></script> 
+    <!-- If data.js doesn't use ES module syntax (just plain JS), you can remove the type="module" -->
   </body>
 </html>
