@@ -1,5 +1,5 @@
 .page3 {
-    background-image: url('starlink.jpg');
+    background-image: url('/starlink.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh; 
